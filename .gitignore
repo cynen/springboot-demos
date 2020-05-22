@@ -1,2 +1,4 @@
 .idea/*
 multi-data-source/target/*
+Springboot-redis/target/*
+Springboot-redis/Springboot-redis.iml
