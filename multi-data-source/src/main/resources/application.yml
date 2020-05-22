@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+# 配置多数据源
+spring:
+  datasource:
+    db1:
+      jdbc-url: jdbc:mysql://172.16.8.51:8806/redmine?useSSL=FALSE&serverTimezone=UTC
+      password: zxzn@163.com
+      username: root
+      driver-class-name: com.mysql.jdbc.Driver
+    db2:
+      jdbc-url: jdbc:sqlserver://172.16.21.206:1433;databasename=UFDATA_521_2019
+      password: QWE123qwe
+      driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      username: SA
