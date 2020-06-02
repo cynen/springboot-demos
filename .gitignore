@@ -2,3 +2,6 @@
 multi-data-source/target/*
 Springboot-redis/target/*
 Springboot-redis/Springboot-redis.iml
+XMLParse/XMLParse/.*
+FileUpload/.*
+WordTest/WordTest/.*
