@@ -5,3 +5,5 @@ Springboot-redis/Springboot-redis.iml
 XMLParse/XMLParse/.*
 FileUpload/.*
 WordTest/WordTest/.*
+Springboot-Security-demo/target/*
+Springboot-Security-demo/Springboot-Security-demo.iml

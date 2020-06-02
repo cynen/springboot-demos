@@ -1,0 +1,25 @@
+server:
+  port: 8380
+
+# jpa的配置
+spring:
+  jpa:
+    show-sql: true
+    # 关闭驼峰命名法则
+    hibernate:
+      naming:
+        physicalStrategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+# 配置多数据源
+  datasource:
+      # url: jdbc:mysql://172.16.8.52:7713/etmdb?useSSL=FALSE&serverTimezone=UTC
+      url: jdbc:mysql://47.107.177.108:8806/tensquare_user?useSSL=FALSE&serverTimezone=UTC
+      # password: zxzn@163.com
+      username: root
+      driver-class-name: com.mysql.jdbc.Driver
+      password: root
+
+jwt:
+  config:
+    key: cynen
+    ttl: 3600000
+
